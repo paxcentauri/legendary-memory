@@ -11,6 +11,6 @@
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 ## Activity 1
-![Activity 1](https://github.com/shikharchaurasia/shikharchaurasia.github.io/assets/img/activity1.jpg?raw=true)
+![Activity 1](https://github.com/shikharchaurasia/shikharchaurasia.github.io/assets/img/activity1.jpg)
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
