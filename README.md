@@ -10,5 +10,7 @@
 [![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/shikharchaurasia/)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
+## Activity 1
+![Activity 1](https://github.com/shikharchaurasia/shikharchaurasia.github.io/assets/img/activity1.jpg?raw=true)
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
