@@ -21,5 +21,9 @@
 ![Activity 3](/assets/img/activity3.png)
 ![Activity 3](/assets/img/activity3_1.png)
 
+## Activity 4
+![Activity 4](/assets/img/activity4_1.png)
+![Activity 4](/assets/img/activity4_2.png)
+
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
