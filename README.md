@@ -1,6 +1,6 @@
-# Personal Portfolio ⚡️ 
+# Personal Portfolio - Shikhar Chaurasia⚡️ 
 
-> Welcome to Shikhar Chaurasia's personal web portfolio!
+> Welcome to Shikhar's personal web portfolio!
 
 > https://shikharchaurasia.github.io
 
