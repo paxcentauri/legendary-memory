@@ -7,7 +7,31 @@ const myProjects = [
       accomplishments: [
         'Designing a DDS communication infrastructure for a warehouse robotics system.',
         'Decentralizing server responsibilities by facilitating an intelligent task swapping algorithm.'
-      ]
+      ],
+      startDate: new Date('2024-08-01'),
+    },
+    
+    {
+      title: 'GIS Mapper App',
+      description: 'A GIS Based World Navigation System with fast and efficient routing algorithms.',
+      imgSrc: '/assets/img/maps.png',
+      techStack: 'C++, GNU Debugger, GtkLibrary, OpenStreetMap, Valgrind',
+      accomplishments: [
+        'Created an API based GIS Application in C++ using OSM Database and Gtk Library',
+        'Extracted data into efficient data structures while reducing load time by 75%. Enhanced UI and UX'
+      ],
+      startDate: new Date('2022-01-10'),
+    },
+    {
+      title: 'Text Conference App',
+      description: 'A client-server infrastructure that enables real-time text communication between multiple clients.',
+      imgSrc: '/assets/img/chat.png',
+      techStack: 'C, C++, Wireshark, GNU Debugger',
+      accomplishments: [
+        'Implemented server-side code in C, following TCP protocol standards and socket programming.',
+        'Implemented client functionalities including user registrations and group messaging for up to 10 people synchronously.'
+      ],
+      startDate: new Date('2023-03-08'),
     },
     {
       title: 'RoomTone',
@@ -19,36 +43,10 @@ const myProjects = [
         'Triangulated point-cloud surfaces and modelled sound absorption and reverberation.',
         'Won the Most Innovative Use of Qualcomm Snapdragon HDK'
       ],
-      links: {
-        demo: 'https://devpost.com/software/room-tone',
-        source: 'https://github.com/hitarthdesai/room-tone'
-      }
-    },
-    {
-      title: 'Text Conference App',
-      description: 'A client-server infrastructure that enables real-time text communication between multiple clients.',
-      imgSrc: '/assets/img/chat.png',
-      techStack: 'C, C++, Wireshark, GNU Debugger',
-      accomplishments: [
-        'Implemented server-side code in C, following TCP protocol standards and socket programming.',
-        'Implemented client functionalities including user registrations and group messaging for up to 10 people synchronously.'
-      ]
-    },
-    {
-      title: 'GIS Mapper App',
-      description: 'A GIS Based World Navigation System with fast and efficient routing algorithms.',
-      imgSrc: '/assets/img/maps.png',
-      techStack: 'C++, GNU Debugger, GtkLibrary, OpenStreetMap, Valgrind',
-      accomplishments: [
-        'Created an API based GIS Application in C++ using OSM Database and Gtk Library',
-        'Extracted data into efficient data structures while reducing load time by 75%. Enhanced UI and UX'
-      ]
+      startDate: new Date('2023-02-08'),
     },
 ];
 
-let insertionPoint = document.getElementById('project-insert');
-
-let array_index = 1;
 
 // Function to create a project card
 function createProjectCard(project) {
@@ -72,7 +70,11 @@ function createProjectCard(project) {
         </div>
         </div>
     `;
-}
+};
+
+let insertionPoint = document.getElementById('project-insert');
+
+let array_index = 1;
 
 function loadAllProjects() {
     while (array_index < myProjects.length) {
@@ -81,10 +83,19 @@ function loadAllProjects() {
         array_index++;
     }
     loadMoreButton.style.display = 'none'; // Hide button after all projects are loaded
-}
+};
+
+// sort all projects in descending order of startDate
+
+myProjects.sort((a, b) => b.startDate - a.startDate);
 
 insertionPoint.innerHTML += createProjectCard(myProjects[0]);
 
 const loadMoreButton = document.getElementById('load-btn');
 
 loadMoreButton.addEventListener('click', loadAllProjects);
+
+// References used:
+// 1.	https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents 
+// 2.	https://www.freecodecamp.org/news/the-javascript-dom-manipulation-handbook/
+// 3. https://masteringjs.io/tutorials/fundamentals/sort-by-date
