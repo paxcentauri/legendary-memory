@@ -25,5 +25,10 @@
 ![Activity 4](/assets/img/activity4_1.png)
 ![Activity 4](/assets/img/activity4_2.png)
 
+## Activity 5
+![Activity 5](/assets/img/activity5_1.png)
+![Activity 5](/assets/img/activity5_2.png)
+![Activity 5](/assets/img/activity5_3.png)
+
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
