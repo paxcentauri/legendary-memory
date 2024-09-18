@@ -27,6 +27,7 @@
 
 ## Activity 5
 ![Activity 5](/assets/img/activity5_1.png)
+![Activity 5](/assets/img/activity5_2.png)
 ![Activity 5](/assets/img/activity5_3.png)
 
 ## License 📄
