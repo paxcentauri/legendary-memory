@@ -105,7 +105,7 @@
         1. mdi-airplane
         -->
         <a aria-label="Navigate to the Places Travelled section" href="#placestravelled" class="waves-effect waves-dark teal-text"><i
-           class="mdi mdi-airplane small""></i><span>Places Travelled</span></a>
+           class="mdi-maps-place small""></i><span>Places Travelled</span></a>
       </li>
 
       <li class="bold">
@@ -178,7 +178,7 @@
 
       <li class="bold">
         <a aria-label="Navigate to the Places Travelled section" href="#placestravelled" class="waves-effect waves-dark teal-text"><i
-            class="mdi mdi-airplane small"></i><span>Places Travelled</span></a>
+            class="mdi-maps-place small"></i><span>Places Travelled</span></a>
       </li>
       
       <li class="bold">
@@ -215,20 +215,6 @@
                   <i class="fa fa-github"></i>
                 </button>
               </a>
-
-              <!-- <a href="https://angel.co/u/varad_bhogayata" target="_blank">
-                <button class="icon-btn angellist">
-                  <i class="fa fa-angellist"></i>
-                </button>
-              </a> -->
-
-              <!-- <a href="http://linkedin.com/in/varadbhogayata" target="_blank">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-
-                  </span>
-              </a> -->
             </div>
             <div class='buttons'>
               <a href="#about" class="readme">Read More</a>
@@ -369,105 +355,16 @@
     </section>
 
     <!-- Fourth Section: Projects -->
-    <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Projects</h3>
+    <section id="recent-projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Recent Projects</h3>
       <div class="container">
-        <div class="row">
+        <div class="row" id="project-insert">
 
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/robots.jpeg" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Nexus Bots<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Decentralizing warehouse server dependencies by enabling P2P communication in warehouse robots
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tech Stack:</b> Python, C++, ROS, Docker</li>
-                  <li>Designing a DDS communication infrastructure for a warehouse robotics system.</li>
-                  <li>Decentralizing server responsibilities by facilitating an intelligent task swapping algorithm.</li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/audio.jpg" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">RoomTone<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  An app that performs acoustic analysis of a room to provide enhanced audio quality from speakers.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tech Stack:</b> Python, NumPy, Scikit-Learn, Pointcloud</li>
-                  <li>Develop an acoustic ray-tracing algorithm of a 3D model room.</li>
-                  <li>Triangulated point-cloud surfaces and modelled sound absorption and reverberation.</li>
-                  <li>Won the <b>Most Innovative Use of Qualcomm Snapdragon HDK</b></li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://devpost.com/software/room-tone" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/hitarthdesai/room-tone"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="quiz app" src="/assets/img/chat.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Text Conference App<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A client-server infrastructure that enables real-time text communication between multiple clients.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> C, C++, Wireshark, GNU Debugger</li>
-                  <li>Implemented server-side code in C, following TCP protocol standards and socket programming.</li>
-                  <li>Implemented client functionalities including user registrations and group messaging for up to 10 people synchronously.</li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- ************* -->
         </div>
+        <div class="row" style="display: flex; justify-content: center;">
+          <button id="load-btn" class="btn waves-effect waves-light teal">Load More</button>
+        </div>
+
       </div>
     </section>
 
@@ -678,6 +575,8 @@
       backSpeed: 40
     });
   </script>
+
+<script src="script.js"></script>
 
 
   <!-- jQuery-->
